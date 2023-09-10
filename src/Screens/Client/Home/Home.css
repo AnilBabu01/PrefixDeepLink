@@ -256,6 +256,9 @@
 
   .main_updatecard_div {
     margin: 0.2rem;
+    padding-left: 0rem;
+    padding-right: 1rem;
+
   }
 
   .main_added_game img {
@@ -278,4 +281,17 @@
   .slie_img_div img {
     height: 9rem;
   }
+  .mainBONUSinnear1 {
+    color: white;
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    width: 87%;
+    /* padding-bottom: 20rem; */
+}
+.mainBONUSinnear {
+  color: white;
+  padding-top: 2rem;
+  width: 85%;
+}
 }
