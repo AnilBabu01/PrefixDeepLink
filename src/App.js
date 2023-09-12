@@ -14,7 +14,6 @@ function App() {
       >
         <i class="fa fa-whatsapp whatsapp-icon" />
       </a> */}
-
       <img class="whatsapp_float" src={sms} alt="sms" />
       <Router>
         <ScrollToTop />
