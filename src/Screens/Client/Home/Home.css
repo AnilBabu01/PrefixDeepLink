@@ -188,10 +188,15 @@
 .mainBONUSinnear h2 {
   font-size: 30px;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 .mainBONUSinnear h3 {
   font-size: 25px;
   margin-bottom: 0.5rem;
+}
+.megintext{
+  margin-bottom: 1rem;
+  font-size: 20px;
 }
 .mainBONUSinnear p {
   font-size: 20px;

@@ -23,7 +23,7 @@ const Navbar = ({ showRoomOptions }) => {
         <nav className={style.navbar}>
           <div className={style.logo}>
             <img src={logo} alt=" Logo" />
-            <p className={style.logotext}>Royal $ weeps</p>
+            <p className={style.logotext}>Royal <br></br>$weeps</p>
           </div>
 
           <ul

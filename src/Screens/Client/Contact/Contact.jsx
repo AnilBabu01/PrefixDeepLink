@@ -12,13 +12,13 @@ export default function Contact() {
             <AddedgameCard
               img={sms}
               name={"MESSENGER"}
-              url={"https://river777.net"}
+              url={"https://www.facebook.com/profile.php?id=61550786386541&mibextid=b06tZ0"}
             />
-            <AddedgameCard
+            {/* <AddedgameCard
               img={cash}
               name={"CASH.APP"}
               url={"https://cash.app/$Childofgod412"}
-            />
+            /> */}
           </div>
         </div>
       </div>

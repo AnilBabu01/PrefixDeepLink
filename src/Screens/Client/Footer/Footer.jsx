@@ -6,6 +6,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WarningIcon from "@mui/icons-material/Warning";
 import style from "../Header/Navbar.module.css";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 import "./Footer.css";
 export default function Footer() {
   return (
@@ -31,24 +32,9 @@ export default function Footer() {
           </marquee> */}
 
           <div className="main_Tele_div">
-            {/* <TelegramIcon
-              style={{ height: "40px", marginRight: "1rem" }}
-              className={style.burger}
-            />
-            <YouTubeIcon
-              style={{ height: "40px", marginRight: "1rem" }}
-              className={style.burger}
-            />
-            <InstagramIcon
-              style={{ height: "40px", marginRight: "1rem" }}
-              className={style.burger}
-            />
-            <WhatsAppIcon
-              style={{ height: "40px", marginRight: "1rem" }}
-              className={style.burger}
-            /> */}
+        
             <a
-              href="https://www.facebook.com/profile.php?id=61550949456848&mibextid=ZbWKwL"
+              href="https://www.facebook.com/people/Royal-weeps/61550786386541/"
               target="blank"
             >
               <FacebookIcon
@@ -57,17 +43,15 @@ export default function Footer() {
               />
             </a>
           </div>
-          <div className="main_booton_link_div">
-            <a href="/dsd">About Us</a>&nbsp;┊ &nbsp;
-            <a href="/sdhjhs">Contact Us</a>&nbsp;┊ &nbsp;
-            <a href="/sdhs">Private Policy</a>&nbsp;┊ &nbsp;
-            <a href="/sdds">T&C</a>
-          </div>
-          <p className="copy_text_right">
-            Copyright ©Royal Sweeps All Rights Reserved
-          </p>
+       
         </div>
       </div>
+      {/* <MessengerCustomerChat
+        pageId="128994583627111"
+        appId="biz_inbox"
+        // htmlRef="<REF_STRING>"
+      /> */}
+      ,
     </>
   );
 }

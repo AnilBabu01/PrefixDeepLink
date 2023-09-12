@@ -10,9 +10,11 @@ import img5 from "../../../assets/img5.jpeg";
 import img6 from "../../../assets/img6.jpeg";
 import img7 from "../../../assets/img7.jpeg";
 import img8 from "../../../assets/img8.jpeg";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 export default function Home({ setshowadmin }) {
+  const navigate = useNavigate();
   useEffect(() => {
     setshowadmin(false);
   }, []);
@@ -42,28 +44,36 @@ export default function Home({ setshowadmin }) {
           <div className="mainBONUS">
             <div className="mainBONUSinnear">
               <h2>WELCOME BONUS</h2>
-              <p>
-                1. SignUP Bonus : 100% SignUp Bonus for new Player on their
-                first deposit.
-              </p>
-              <p>
-                2. Regular Bonus : 20% Bonus on every deposit for our Regular
-                Player
-              </p>
-              <p>
-                3. Refferal Bonus : 5$ for referring a new player who made a
-                minimum deposit of 10$ upon request.
-              </p>
-              <p>
-                4. Birthday Bonus : 40% on deposit only given once a year on
-                date of birth.
-              </p>
+              <ul>
+                <li className="megintext">
+                  SignUP Bonus : 100% SignUp Bonus for new Player on their first
+                  deposit.
+                </li>
+                <li className="megintext">
+                  Regular Bonus : 20% Bonus on every deposit for our Regular
+                  Player
+                </li>
+                <li className="megintext">
+                  Refferal Bonus : 5$ for referring a new player who made a
+                  minimum deposit of 10$ upon request.
+                </li>
+                <li className="megintext">
+                  Birthday Bonus : 40% on deposit only given once a year on date
+                  of birth.
+                </li>
+              </ul>
+
               <p>
                 Note : Must present Driving Licence or Government Issued I.D.
                 card to claim Birthday Bonus.
               </p>
               <div>
-                <button className="contactbtnus">Contact Us</button>
+                <button
+                  onClick={() => navigate("/contact")}
+                  className="contactbtnus"
+                >
+                  Contact Us
+                </button>
               </div>
             </div>
           </div>
@@ -94,7 +104,7 @@ export default function Home({ setshowadmin }) {
               </div>
             </Carousel>
           </div> */}
-
+          <h2 className="blacktext">OUR PLATFORMS</h2>
           <div className="main_updatecard_div">
             <AddedgameCard
               img={img1}
@@ -142,7 +152,7 @@ export default function Home({ setshowadmin }) {
               img={img8}
               name={"MILKY WAY"}
               url={"http://milkywayapp.xyz:8580/index.html"}
-                btn={"PLAY GAME"}
+              btn={"PLAY GAME"}
             />
           </div>
 
