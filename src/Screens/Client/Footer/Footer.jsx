@@ -1,12 +1,7 @@
 import React from "react";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import TelegramIcon from "@mui/icons-material/Telegram";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import WarningIcon from "@mui/icons-material/Warning";
 import style from "../Header/Navbar.module.css";
-import MessengerCustomerChat from "react-messenger-customer-chat";
+
 import "./Footer.css";
 export default function Footer() {
   return (
@@ -46,11 +41,7 @@ export default function Footer() {
        
         </div>
       </div>
-      {/* <MessengerCustomerChat
-        pageId="128994583627111"
-        appId="biz_inbox"
-        // htmlRef="<REF_STRING>"
-      /> */}
+    
       ,
     </>
   );
