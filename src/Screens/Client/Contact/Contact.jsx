@@ -12,7 +12,9 @@ export default function Contact() {
             <AddedgameCard
               img={sms}
               name={"MESSENGER"}
-              url={"https://www.facebook.com/profile.php?id=61550786386541&mibextid=b06tZ0"}
+              url={
+                "https://www.facebook.com/profile.php?id=61550949456848&mibextid=ZbWKwL"
+              }
             />
             {/* <AddedgameCard
               img={cash}

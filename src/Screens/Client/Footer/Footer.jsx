@@ -8,27 +8,8 @@ export default function Footer() {
     <>
       <div className="container" style={{ marginTop: "0px" }}>
         <div className="footer_main">
-          {/* <marquee
-            style={{
-              border: "solid",
-              color: "white",
-              margin: "0.2rem",
-              fontSize: "16px",
-              borderWidth: "1px",
-            }}
-          >
-           
-            Hurry up, gamers! Don't miss out on our sizzling hot tables. We're
-            dedicated to offering 100% legit and customer-friendly services,
-            available 24/7. Delight in our top-notch gaming experience and
-            superb service - give us a try, you won't be disappointed! Instant
-            deposits & withdrawals We accept CASHAPP & PAYPAL For more info,
-            slide into our DMs!
-          </marquee> */}
-
           <div className="main_Tele_div">
-        
-            <a
+            {/* <a
               href="https://www.facebook.com/people/Royal-weeps/61550786386541/"
               target="blank"
             >
@@ -36,12 +17,10 @@ export default function Footer() {
                 style={{ height: "40px", marginRight: "1rem" }}
                 className={style.burger}
               />
-            </a>
+            </a> */}
           </div>
-       
         </div>
       </div>
-    
       ,
     </>
   );

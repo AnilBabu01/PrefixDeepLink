@@ -30,7 +30,7 @@ const Navbar = ({ showRoomOptions }) => {
             className={isMobile ? style.mobilelinks : style.navlinks}
             onClick={() => setisMobile(false)}
           >
-            <li>
+            {/* <li>
               <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -39,8 +39,8 @@ const Navbar = ({ showRoomOptions }) => {
               >
                 Home
               </NavLink>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <NavLink
                 to="/admin-panel/LikePlay"
                 className={({ isActive }) =>
@@ -49,8 +49,8 @@ const Navbar = ({ showRoomOptions }) => {
               >
                 Link 2 Play
               </NavLink>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <NavLink
                 to="/admin-panel/Payment"
                 className={({ isActive }) =>
@@ -59,9 +59,9 @@ const Navbar = ({ showRoomOptions }) => {
               >
                 Payment
               </NavLink>
-            </li>
+            </li> */}
 
-            <li>
+            {/* <li>
               <NavLink
                 to="/#"
                 className={({ isActive }) =>
@@ -70,13 +70,13 @@ const Navbar = ({ showRoomOptions }) => {
               >
                 Offer
               </NavLink>
-            </li>
-
+            </li> */}
+{/* 
             <li>
               <NavLink to="/contact" className={style.borderlink}>
                 Contact Us
               </NavLink>
-            </li>
+            </li> */}
           </ul>
           <i
             style={{ marginRight: "20px" }}

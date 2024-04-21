@@ -23,7 +23,7 @@ export default function Home({ setshowadmin }) {
     <>
       <div className="container">
         <div className="home_main">
-          <marquee
+          {/* <marquee
             style={{
               // border: "dotted",
               color: "rgb(255, 123, 0)",
@@ -40,9 +40,9 @@ export default function Home({ setshowadmin }) {
             superb service - give us a try, you won't be disappointed! Instant
             deposits & withdrawals We accept CASHAPP & PAYPAL For more info,
             slide into our DMs!
-          </marquee>
+          </marquee> */}
           <div className="mainBONUS">
-            <div className="mainBONUSinnear">
+            {/* <div className="mainBONUSinnear">
               <h2>WELCOME BONUS</h2>
               <ul>
                 <li className="megintext">
@@ -75,7 +75,7 @@ export default function Home({ setshowadmin }) {
                   Contact Us
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* <div className="main_slidehgr">
@@ -104,7 +104,7 @@ export default function Home({ setshowadmin }) {
               </div>
             </Carousel>
           </div> */}
-          <h2 className="blacktext">OUR PLATFORMS</h2>
+          {/* <h2 className="blacktext">OUR PLATFORMS</h2> */}
           <div className="main_updatecard_div">
             <AddedgameCard
               img={img1}
@@ -156,7 +156,7 @@ export default function Home({ setshowadmin }) {
             />
           </div>
 
-          <div className="mainBONUS">
+          {/* <div className="mainBONUS">
             <div className="mainBONUSinnear1">
               <h2>OUR SERVICE</h2>
               <h3>Hurry up, gamers!</h3>
@@ -171,7 +171,7 @@ export default function Home({ setshowadmin }) {
               <h4>Thanks</h4>
               <h5>Wish you all the best luck !</h5>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

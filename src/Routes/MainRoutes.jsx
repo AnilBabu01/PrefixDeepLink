@@ -19,7 +19,7 @@ export default function MainRoutes() {
   console.log(showadmin);
   return (
     <>
-      {showadmin ? "" : <Navbar />}
+      {/* {showadmin ? "" : <Navbar />} */}
 
       <Routes>
         <Route path="/" element={<Home setshowadmin={setshowadmin} />} />
